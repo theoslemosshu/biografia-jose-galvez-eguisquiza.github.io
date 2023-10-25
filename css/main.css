@@ -263,7 +263,7 @@ h2.ws {
     }
 
     .section3 {
-        margin-top: 150vh !important;
+        margin-top: 100vh !important;
     }
 
     .sec16 {
@@ -274,8 +274,8 @@ h2.ws {
         height: 200vh !important;
     }
 
-    .sec8 {
-        height: 300vh !important;
+    .sec8, .sec9, .sec11 {
+        height: 100vh !important;
     }
     .section1 {
         height: 100vh !important;
@@ -303,6 +303,10 @@ h2.ws {
 
     .sec {
         height: 330vh;
+    }
+
+    .section3 {
+        margin-top: 100vh !important;
     }
 
 }
@@ -349,7 +353,7 @@ h2.ws {
     }
 
     .section3 {
-        margin-top: 150vh !important;
+        margin-top: 100vh !important;
     }
 
     .sec16 {
@@ -492,7 +496,7 @@ h2.ws {
 
 
 .sec6, .sec7 {
-    height: 155vh;
+    height: 150vh !important;
 }
 
 .sec7{
@@ -511,6 +515,14 @@ h2.ws {
     height: 100vh !important;
 }
 
-.section1 {
+.section1, .sec5, .section3, .sec10 {
     height: 100vh !important;
+}
+
+.sec11{
+    height: 150vh !important;
+}
+
+.sec8 {
+    height: 170vh !important;
 }

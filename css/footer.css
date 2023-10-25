@@ -65,10 +65,14 @@
 /* Media query para pantallas muy pequeñas */
 @media (max-width: 480px) {
     .footer {
-        font-size: 18px; /* Ajusta el tamaño de fuente en pantallas muy pequeñas */
+        font-size: 18px !important; /* Ajusta el tamaño de fuente en pantallas muy pequeñas */
     }
 
     .footer-left {
-        font-size: 16px; /* Ajusta el tamaño de fuente en pantallas muy pequeñas */
+        font-size: 16px !important; /* Ajusta el tamaño de fuente en pantallas muy pequeñas */
+    }
+
+    li {
+        font-size: 10px !important;
     }
 }
