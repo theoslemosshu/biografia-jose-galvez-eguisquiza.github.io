@@ -70,3 +70,25 @@ ul {
 .an:hover {
     color: #FFD700;
 }
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .navcont {
+        flex-direction: column; /* Cambia a un diseño de columna en pantallas pequeñas */
+        width: 100%; /* Ocupa el ancho completo en pantallas pequeñas */
+        text-align: center; /* Alinea el contenido al centro en pantallas pequeñas */
+    }
+
+    .mx-8 {
+        margin-left: 0; /* Elimina el margen en pantallas pequeñas */
+        margin-right: 0; /* Elimina el margen en pantallas pequeñas */
+    }
+
+    .logo {
+        font-size: 1.0rem; /* Ajusta el tamaño de fuente en pantallas pequeñas */
+    }
+
+    a {
+        font-size: 1.0rem;
+    }
+}

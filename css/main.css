@@ -131,9 +131,146 @@ h2.ws {
     fill: #ffffff; /* Color del ícono */
 }
 
+/* Media query para pantallas más pequeñas */
+@media (max-width: 900px) {
+
+
+    .sec h2{
+        font-size: 30px !important;
+    }
+
+    h1 {
+        font-size: 30px !important;
+    }
+
+    p{
+        font-size: 12px !important;
+    }
+
+    .sec .p-peq{
+        font-size: 9px !important;
+    }
+    .sec .sub-p{
+        font-size: 9px !important;
+    }
+
+    .sec {
+        height: 150vh !important;
+    }
+
+    .secntion2 {
+        height: 150vh !important;
+    }
+
+    .section3 {
+        margin-top: 150vh !important;
+    }
+
+    .sec16 {
+        height: 500vh !important;
+    }
+
+    .sec6, .sec7, .sec8, .sec9 {
+        height: 200vh !important;
+    }
+
+    .sec8 {
+        height: 300vh !important;
+    }
+    .section1 {
+        height: 100vh !important;
+    }
+    
+    .section2, .sec15, .sec14, .sec12 {
+        height: 100vh !important;
+    }
+
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .cont1 h1 {
+        font-size: 40px; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+    }
+
+    .section2 h2 {
+        font-size: 40px;
+    }
+
+    .section2 p {
+        font-size: 14px;
+    }
+
+    .sec {
+        height: 330vh;
+    }
+
+}
+
+/* Media query para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    .cont1 h1 {
+        font-size: 20px; /* Ajusta el tamaño de fuente para pantallas muy pequeñas */
+    }
+
+    .section2 h2 {
+        font-size: 20px;
+    }
+
+    .section1 {
+        height: 50vh !important;
+    }
+
+    .section2 p {
+        font-size: 12px;
+    }
+
+    .sec h2{
+        font-size: 20px !important;
+    }
+
+    p{
+        font-size: 12px !important;
+    }
+
+    .sec .p-peq{
+        font-size: 9px !important;
+    }
+    .sec .sub-p{
+        font-size: 9px !important;
+    }
+
+    .sec {
+        height: 150vh !important;
+    }
+
+    .secntion2 {
+        height: 150vh !important;
+    }
+
+    .section3 {
+        margin-top: 150vh !important;
+    }
+
+    .sec16 {
+        height: 500vh !important;
+    }
+
+    .sec6, .sec7, .sec8, .sec9 {
+        height: 200vh !important;
+    }
+
+    .sec8 {
+        height: 300vh !important;
+    }
+    .section1 {
+        height: 100vh !important;
+    }
+}
+
 
 .section3 {
-    height: 100vh; /* Establece la altura de la sección para que ocupe toda la ventana visible (viewport height) */
+    height: 150vh; /* Establece la altura de la sección para que ocupe toda la ventana visible (viewport height) */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,7 +297,7 @@ h2.ws {
     justify-content: center;
     align-items: center; /* Cambia el color de fondo según tu preferencia */
     background-color: rgba(0, 0, 0, 0.7);
-    height: 100vh;
+    height: 150vh;
 }
 
 .cont-p {
@@ -246,4 +383,30 @@ h2.ws {
 
 .sec16 {
     height: 150vh;
+}
+
+.sec {
+    height: 200vh;
+    width: 100%;
+}
+
+
+.sec6, .sec7 {
+    height: 155vh;
+}
+
+.sec7{
+    height: 200vh;
+}
+
+.sec16 {
+    height: 240vh;
+}
+
+.sec13 {
+    height: 130vh;
+}
+
+.sec15, .sec14, .sec12 {
+    height: 100vh;
 }
