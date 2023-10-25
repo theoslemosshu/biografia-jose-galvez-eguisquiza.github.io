@@ -1,0 +1,72 @@
+@import url('https://fonts.cdnfonts.com/css/white-star-free');
+
+.headerOnStart{
+    padding:20px 0px;
+    font-size: 1.25rem;
+    position: absolute;
+    width: 100%;
+    z-index: 999999999;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex{
+    display:flex;
+}
+
+.navcont {
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    display: flex;
+}
+
+.mx-8{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.a {
+    color: inherit;
+    text-align: inherit;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style-type: disc;
+    margin-block-start:  1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+/* Estilo para el encabezado fijo */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(32, 32, 32, 0.3); /* Fondo difuminado, puedes ajustar la opacidad */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque para el fondo */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.an:hover {
+    color: #FFD700;
+}

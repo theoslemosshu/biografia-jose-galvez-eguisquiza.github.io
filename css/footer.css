@@ -1,0 +1,51 @@
+.footer {
+    background-image: url('https://i.imgur.com/o2UuSlA.png');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-attachment: fixed; /* Opcional: fija el fondo para que no se desplace con el contenido */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */      
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    height: 100vh;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-left {
+    text-align: left;
+    width: 30%;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.footer-left p {
+    margin: 0;
+}
+
+.footer-right {
+    width: 70%;
+    text-align: right;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-right ul li {
+    margin: 5px 0;
+}
+
+.rd1 {
+    margin-left: 10%;
+}
+
+.rd2 {
+    margin-right: 10%;
+}
